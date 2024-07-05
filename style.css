@@ -1,0 +1,126 @@
+*{
+    background-color: rgb(41, 17, 53);
+
+    padding: 0px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.dado{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 10px;
+    background-color: rgba(126, 48, 37, 0.918);
+}
+
+.punto{
+    width: 15px;
+    height: 15px;
+
+    background-color: white;
+
+    margin: 10px;
+    border-radius: 50px;
+}
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+#dado1{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.columna{
+    height: 28%;
+
+    background-color: transparent;
+    /* border: 1px  solid yellow; */
+}
+
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+#columna3-dado2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+#columna2-dado3{
+    display: flex;
+    justify-content: center;
+}
+
+#columna3-dado3{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+#columna1-dado4{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#columna3-dado4{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+#columna1-dado5{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#columna2-dado5{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#columna3-dado5{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.columna-dado6{
+    height: 80%;
+    background-color: transparent;
+}
+#columna1-dado6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
